@@ -50,7 +50,7 @@ module.exports = {
       
         
         '/products/lists',
-      '/carrier',  '/contact-us'
+      '/career',  '/contact-us'
   ]
   },
 
