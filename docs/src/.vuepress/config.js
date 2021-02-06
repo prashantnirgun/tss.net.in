@@ -44,11 +44,13 @@ module.exports = {
       {
         text: 'Contact Us',
         link: '/contact-us/'
+      },
+      {
+        text: 'Download',
+        link: 'http://tss.net.in/download/'
       }
     ],
     sidebar: [
-      
-        
         '/products/lists',
       '/career',  '/contact-us'
   ]
