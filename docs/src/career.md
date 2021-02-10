@@ -48,5 +48,5 @@ We are looking for a dynamic, energetic intern who is eager to learn about our c
 1. Email your CV to ![Email](/images/email.png =100x20).
 1. Book your date & time slot for interview ([Address](/contact-us)).
 1. Test for minimum passing 60%
-1. After sucessfull test result technical interview.
-1. Shortlisted candidates needs to submit his / her document.
+1. After qualifying the 1st test round 2nd round face to face interview.
+1. Selected candidates need to share their documents.
