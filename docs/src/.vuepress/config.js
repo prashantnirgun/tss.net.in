@@ -47,7 +47,7 @@ module.exports = {
       },
       {
         text: 'Download',
-        link: 'http://tss.net.in/download/'
+        link: 'http://tss.net.in/download/patch/'
       }
     ],
     sidebar: [

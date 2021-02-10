@@ -43,10 +43,10 @@ We are looking for a dynamic, energetic intern who is eager to learn about our c
 - **Editors** : Any Open Source editors with knowledge of required plugins.
 - **Operating System** : Ubuntu Linux will provide basic training for it.
 
-### How to apply
+## How to apply
 
 1. Email your CV to ![Email](/images/email.png =100x20).
-1. Book your date & time slot for interview ([Address](/contact-us)).
+1. Book your date & time slot for interview ([Address](/contact-us.html)).
 1. Test for minimum passing 60%
 1. After qualifying the 1st test round 2nd round face to face interview.
 1. Selected candidates need to share their documents.
