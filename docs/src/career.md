@@ -6,7 +6,7 @@ Full Stack Developer required for Vashi Navi Mumbai location,
 
 ### Skills
 
-- **General** : GitHub, Any Web Server, API Standards & Development Tools, Browser Dev Tools.
+- **General** : GitHub, Any Web Server, REST API & Development Tools, Browser Dev Tools.
 - **Frontend** : Javascript, Vue, Quasar, Bootstrap, Flex, Webpack
 - **Mobile** : Flutter, Native Script
 - **Backend** : MySQL, node.js, Any ORM experience is advantages
@@ -36,7 +36,7 @@ We are looking for a dynamic, energetic intern who is eager to learn about our c
 - A final year student or recent graduate with minimum 60%.\*
 - Specialised Training from any leading Technical Institute.\*
 - **Frontend** : Any scripting Language + Javascript, CSS\*
-- **Framework** : Should be familar with any MVC or HMVC\*
+- **Framework** : Should be familar with any [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) or [HMVC](https://www.youtube.com/watch?v=8fy8E_C5_qQ&list=PLBEpR3pmwCawDZ6FgNYoyvicEz4HrJPec)\*
 - **General** : Browser Dev Tools, FTP, Git, API standards\*
 - **WebServer** : Any WAMP or LAMP
 - **Database** : Any Open Source RDBMS knowledage will be added advantage.
