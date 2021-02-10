@@ -37,8 +37,16 @@ We are looking for a dynamic, energetic intern who is eager to learn about our c
 - Specialised Training from any leading Technical Institute.\*
 - **Frontend** : Any scripting Language + Javascript, CSS\*
 - **Framework** : Should be familar with any [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) or [HMVC](https://www.youtube.com/watch?v=8fy8E_C5_qQ&list=PLBEpR3pmwCawDZ6FgNYoyvicEz4HrJPec)\*
-- **General** : Browser Dev Tools, FTP, Git, API standards\*
+- **General** : Browser Dev Tools, FTP, Git, REST API\*
 - **WebServer** : Any WAMP or LAMP
 - **Database** : Any Open Source RDBMS knowledage will be added advantage.
 - **Editors** : Any Open Source editors with knowledge of required plugins.
 - **Operating System** : Ubuntu Linux will provide basic training for it.
+
+### How to apply
+
+1. Email your CV to ![Email](/images/email.png =100x20).
+1. Book your date & time slot for interview ([Address](/contact-us)).
+1. Test for minimum passing 60%
+1. After sucessfull test result technical interview.
+1. Shortlisted candidates needs to submit his / her document.
