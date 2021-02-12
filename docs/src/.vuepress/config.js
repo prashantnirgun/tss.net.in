@@ -35,7 +35,7 @@ module.exports = {
     nav: [
       {
         text: 'Products',
-        link: '/products/lists',
+        link: '/products/desktop',
       },
       {
         text: 'About',
@@ -51,7 +51,15 @@ module.exports = {
       }
     ],
     sidebar: [
-        '/products/lists',
+      {
+        collapsable: false, 
+        title: 'Products',
+        children: [
+          '/products/desktop',
+          '/products/web-portals',
+          '/products/services'
+        ]
+      },
       '/career',  '/contact-us'
   ]
   },

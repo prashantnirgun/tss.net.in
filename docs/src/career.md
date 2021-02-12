@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: Career
+  - name: keywords
+    content: Career
+---
+
 # Career
 
 ## 01 Full Stack

@@ -3,11 +3,11 @@ home: true
 heroImage: /images/logo.jpg
 tagline:
 actionText: Product & Services →
-actionLink: /products/lists
+actionLink: /products/desktop
 features:
   - title: APMC Accounting Software
     details: Multi Lingual Desktop Accounting Software for APMC vendors, Handle Taxation of out state items, Basic inventory, General Accouting, SMS, Online Backup, Network Ready. 300+ Customer accross Maharashtra.
-  - title: Net Banking Portal
+  - title: Credit Co-Op Soc (Banking)
     details: Online Banking portal for Staff Co Operative Credit Society. Handle multiple Loan & Deposite scheme, Passbook, Auto SMS reply for loan queries, General Accounting.
   - title: E-Commerce
     details: E-commerce portal for online sales, accounting, invetory, GST, Multiple Rate List, Fixed Tender rates, Flash Sales, Payment Gateway, Google Analytics, Multiple delivery address, Guest Login & Payment, Order Tracking.
