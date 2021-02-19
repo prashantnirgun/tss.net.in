@@ -18,7 +18,9 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'google-site-verification', content: 'Aem3HUgalfltVdYlJhL1qE8OgA7F7g8Sni7DfSBoSWQ'}]    
   ],
 
   /**
@@ -33,9 +35,12 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
-      {
-        text: 'Products',
-        link: '/products/desktop',
+      { text : 'Products', items : [
+        { text: 'Desktop', link: '/products/desktop/'},
+        { text: 'Web Portals', link: '/products/web-portals/'},
+        { text: 'Services', link: '/products/services/'},
+        { text: 'Tally Prime', link: '/products/tally/'},
+        ]
       },
       {
         text: 'About',
@@ -47,7 +52,7 @@ module.exports = {
       },
       {
         text: 'Download',
-        link: 'http://tss.net.in/download/patch/'
+        link: '/download/'
       }
     ],
     sidebar: [
@@ -57,7 +62,8 @@ module.exports = {
         children: [
           '/products/desktop',
           '/products/web-portals',
-          '/products/services'
+          '/products/services',
+          '/products/tally'
         ]
       },
       '/career',  '/contact-us'
@@ -70,6 +76,14 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'flexsearch',
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-25143914-1' // UA-00000000-0
+      }
+    ]
+    /*
     [
       '@vuepress/last-updated',
       {
@@ -80,6 +94,7 @@ module.exports = {
         }
       }
     ],
+    */
   ],
   markdown: {
     lineNumbers: true,

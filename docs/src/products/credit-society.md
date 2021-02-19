@@ -1,4 +1,12 @@
-# Employees Co Operative Credit Society
+---
+meta:
+  - name: description
+    content: Employees Co Operative Credit Society Portal
+  - name: keywords
+    content: Online Credit Operative Credit Society Portal Co Op Net Banking
+---
+
+# Employees Co Operative Credit Society Portal
 
 Online Banking portal for Staff Co Operative Credit Society. Handle multiple Loan & Deposite scheme, Passbook, Auto SMS reply for loan queries, General Accounting.
 

@@ -8,8 +8,8 @@ Multi Lingual Desktop Accounting Software for APMC vendors, Handle Taxation of o
 
 Desktop Accounting Software for SME, Handle Easy billing, taxation, inventory, General Accouting, SMS, Online Backup, Network Ready.
 
-## E-Governess (Setu).
+## E-Governance (SETU).
 
-Desktop Application for SETU Project of Govt. Which facilitates to provide services of Caste, Non-Cremy Layer, Income, Sr Citizen, Property Card and various Central & State Govt schemes.
+SETU or the Citizen Facilitation Centre is a one-stop service centre for citizens who have to visit government offices for certificates, permits, authentication, affidavits and other services. It was set up by the government of Maharashtra state. Desktop Application facilitates to provide services of Caste, Non-Cremy Layer, Income, Sr Citizen, Property Card and various Central & State Govt schemes.
 
 ## Welfare Association Software.
