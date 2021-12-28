@@ -11,7 +11,7 @@ meta:
 
 ## Application
 
-- [BPP APMC (2021)](</download/patch/BPP%20APMC%20(2021)-Ver%202.8.4_Beta.exe>)
+- [BPP APMC (2021)](</download/patch/BPP%20APMC%20(2021)-Ver%202.8.8_EOL.exe>) Release Date 04-10-2021 07:59 PM
 - [BPP Retail (2021)](</download/patch/BPP%20RETAIL%20(2021)-Ver%202.2_EOL.exe>)
 - [Passbook (2021)](</download/patch/Passbook%20(2020)-Ver%201.1_LTE.exe>)
 - [Desktop Application Runtime Files](/download/patch/support.zip)

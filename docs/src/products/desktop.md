@@ -1,6 +1,6 @@
 # Desktop Applications
 
-## APMC Multi Lingual Accounting Software
+## [APMC Multi Lingual Accounting Software](/products/desktop/business-plus-plus.html)
 
 Multi Lingual Desktop Accounting Software for APMC vendors, Handle Taxation of out state items, Basic inventory, General Accouting, SMS, Online Backup, Network Ready. 300+ satisfied customer accross Maharashtra.
 

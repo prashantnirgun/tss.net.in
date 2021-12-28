@@ -8,18 +8,13 @@ meta:
 
 # Career
 
-## 01 Full Stack
+![Career](/images/career.jpg =600x400)
 
-Full Stack Developer required for Vashi Navi Mumbai location,
+If you’re excited to shape the innovations of tomorrow, we want to hear from you. You’ll join smartest minds all working together to build a better future.
 
-### Skills
+**THE SOFTWARE SOURCE** does not charge any fee at any stage of the recruitment process and has not authorized agencies/partners to collect any fee for recruitment. If you encounter any suspicious mail, advertisements or persons who offer jobs at THE SOFTWARE SOURCE, please do let us know by contacting us on ![Email](/images/email.png)
 
-- **General** : GitHub, Any Web Server, REST API & Development Tools, Browser Dev Tools.
-- **Frontend** : Javascript, Vue, Quasar, Bootstrap, Flex, Webpack
-- **Mobile** : Flutter, Native Script
-- **Backend** : MySQL, node.js, Any ORM experience is advantages
-
-## 02 Internship
+## Web Developer / Internship
 
 ### Job Description
 
