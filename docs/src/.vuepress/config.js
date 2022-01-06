@@ -1,10 +1,10 @@
-const { description } = require('../../package')
+const { description } = require("../../package");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'The Software Source',
+  title: "The Software Source",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,11 +16,23 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'google-site-verification', content: 'Aem3HUgalfltVdYlJhL1qE8OgA7F7g8Sni7DfSBoSWQ'}]    
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "Aem3HUgalfltVdYlJhL1qE8OgA7F7g8Sni7DfSBoSWQ",
+      },
+    ],
   ],
 
   /**
@@ -29,60 +41,67 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     nav: [
-      { text : 'Products', items : [
-        { text: 'Desktop', link: '/products/desktop/'},
-        { text: 'Web Portals', link: '/products/web-portals/'},
-        { text: 'Services', link: '/products/services/'},
-        { text: 'Tally Prime', link: '/products/tally/'},
-        ]
+      {
+        text: "Products",
+        items: [
+          { text: "Desktop", link: "/products/desktop/" },
+          { text: "Web Portals", link: "/products/web-portals/" },
+          { text: "Services", link: "/products/services/" },
+          { text: "Tally Prime", link: "/products/tally/" },
+        ],
       },
       {
-        text: 'About',
-        link: '/about/'
+        text: "About",
+        link: "/about/",
       },
       {
-        text: 'Contact Us',
-        link: '/contact-us/'
+        text: "Contact Us",
+        link: "/contact-us/",
       },
       {
-        text: 'Download',
-        link: '/download/'
-      }
+        text: "Bank",
+        link: "/bank/",
+      },
+      {
+        text: "Download",
+        link: "/download/",
+      },
     ],
     sidebar: [
       {
-        collapsable: false, 
-        title: 'Products',
+        collapsable: false,
+        title: "Products",
         children: [
-          '/products/desktop',
-          '/products/web-portals',
-          '/products/services',
-          '/products/tally'
-        ]
+          "/products/desktop",
+          "/products/web-portals",
+          "/products/services",
+          "/products/tally",
+        ],
       },
-      '/career',  '/contact-us'
-  ]
+      "/career",
+      "/contact-us",
+    ],
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    'flexsearch',
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "flexsearch",
     [
-      '@vuepress/google-analytics',
+      "@vuepress/google-analytics",
       {
-        'ga': 'UA-25143914-1' // UA-00000000-0
-      }
-    ]
+        ga: "UA-25143914-1", // UA-00000000-0
+      },
+    ],
     /*
     [
       '@vuepress/last-updated',
@@ -98,9 +117,9 @@ module.exports = {
   ],
   markdown: {
     lineNumbers: true,
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       //md.set({ breaks: true })
-      md.use(require('markdown-it-imsize'))
-    }
+      md.use(require("markdown-it-imsize"));
+    },
   },
-}
+};

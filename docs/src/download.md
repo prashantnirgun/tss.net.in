@@ -24,9 +24,9 @@ meta:
 ## Database
 
 - [MySQL Ver 5.5 Bit 32](/download/mysql/mysql-5.5.38-win32.msi)
-- [MySQL Ver 5.5 Bit 64](/download/mysql/mysql-5.5.38-win32.msi)
+- [MySQL Ver 5.5 Bit 64](/download/mysql/mysql-5.5.38-winx64.msi.msi)
 - [MySQL ODBC Connector Bit 32](/download/mysql/mysql-connector-odbc-5.3.4-win32.msi)
-- [MySQL GUI Tools](/download/mysql/MySQL%20GUI%20Tools%205.0.rar)
+- [MySQL GUI Tools](/download/mysql/mysql-gui-tools-5.0-r17-win32.msi)
 - [SQLite Coonector](/download/mysql/sqliteodbc.exe)
 - [VC 2010](/download/mysql/VC++%202010/vstor_redist.exe)
 
