@@ -11,7 +11,7 @@ meta:
 ### Technical Benefits :
 
 1. Software is developed using latest technology and open source software.
-1. Works on Windows 7 onward both 32 & 64 Bit operating system. It works on both laptop & desktop computer.
+1. Works on Windows 7 to 11 operating system 64 Bit only. It works on both laptop & desktop computer.
 1. Zero dependancy software. No additional framewosk or software library required like ISAM, .Net Frameworks.
 1. No additional hardware is required for Marathi Software such as GIST Card Akruti Dongle Lock.
 1. Additinonal care taken for backup files so that virus threat is minimize.

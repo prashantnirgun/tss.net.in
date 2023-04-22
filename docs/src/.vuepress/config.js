@@ -61,8 +61,8 @@ module.exports = {
         link: "/about/",
       },
       {
-        text: "Contact Us",
-        link: "/contact-us/",
+        text: "Training",
+        items: [{ text: "BPP Desktop", link: "/training/bpp-desktop/" }],
       },
       {
         text: "Bank",
@@ -71,6 +71,10 @@ module.exports = {
       {
         text: "Download",
         link: "/download/",
+      },
+      {
+        text: "Contact Us",
+        link: "/contact-us/",
       },
     ],
     sidebar: [
