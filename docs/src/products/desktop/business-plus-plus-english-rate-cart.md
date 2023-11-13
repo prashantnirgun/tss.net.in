@@ -13,7 +13,7 @@ meta:
 | Patti, Memo, Udhari, Cash Bank, Caret, Ledgers, Summary reports, SMS module, Software Training                               |         Yes |   Yes |        Yes |
 | Final Accounts report suchase Trial Balance, Profit and loss statement, Balancesheet and other reports arequired by auditors |          No |    No |        Yes |
 | Export to Tally                                                                                                              |          No |    No |        Yes |
-| Desktop Software Price without GST                                                                                           |       6,500 | 7,000 |     12,000 |
+| Desktop Software Price without GST                                                                                           |       7,000 | 7,000 |     12,000 |
 
 ## Additional Modules one time Rates
 

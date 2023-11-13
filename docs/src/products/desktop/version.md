@@ -3,7 +3,52 @@
 ## Version History 🔥🔥🔥
 
 - (2023)
+  - 0.2.5
+    - 04-08-2023
+      - No Packing set background red colour
+      - Dhada Book Insert Farmer
+      - Udhari Total A4 Landscape Sunday column added
+      - Packing in English
+      - Sundry Creditors & Debtors in Balancsheet side fixed
+      - Sales Bill Marathi address added
+  - 0.2.4
+    - 29-06-2023
+      - Filter Patti by Farmer
+      - Cash & Bank Voucher Filter
+  - 0.2.3
+    - 23-06-2023
+      - Date Between in criteria box
+      - Ledger Detail Nw
+      - Cash & Bank Pass book force ledger to select
+  - 0.2.0
+    - 14-06-2023
+      - New Search window
+      - 3 Dhada Book reports added
+      - V-Ledgers removed
+      - Apple Agent Ledger added
+      - 2 Rates column for apple purchase added
+      - UTF Fonts support added [Pramukh IME](https://www.pramukhime.com/windows-application)
+      - Ledgers on letterhead added
+      - Backup bug issue fixed
+      - Page Size, Report Page backward compatibility
+      - New Runtime tax method added
+  - 0.1.5
+    - 08-05-2023
+      - Shivaji Font issue in reports resolved
+      - Alert configured for daily backup
+      - Marathi Langauge party_name, city forced sending as blank
+    - 03-05-2023
+      - Cash Book, Caret Criterial close window bug fixed
+      - Telephone no added to ledger
+    - 02-05-2023
+      - Msg uses 1 request, time interval reduced
+      - Wait window font
+      - Avak generate error fixed
+      - Message List window shows Balance, validity, service status
+      - FTP Password encrypted
   - 0.1.4
+    - 24-04-2023
+      - MSG send log
     - 10-04-2023
       - Cloud Backup
       - Udhari Save issue fixed

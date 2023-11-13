@@ -17,13 +17,12 @@
 
 ### Operator
 
-|  #  | Operator Name   | नाव             | Contact No | Place  |
-| :-: | --------------- | --------------- | ---------- | ------ |
-|  1  | Santosh Kalyani | संतोष कल्याणी   | 9820554563 | Mumbai |
-|  2  | Sunil Shinde    | सुनील शिंदे     | 9594263469 | Mumbai |
-|  3  | Arjun Phalke    | अर्जुन फलके     | 9987820506 | Mumbai |
-|  4  | Vinayak Bankar  | विनायक बनकर     | 9867151173 | Mumbai |
-|  5  | Swapnil Chavan  | स्वप्नील चव्हाण | 9833414241 | Mumbai |
-|  6  | Madhav Kate     | माधव काटे       | 8108759762 | Mumbai |
-|  7  | Muzammil Fakhi  | मुझामि फेकही    | 8975492339 | Mumbai |
-|  8  | Balu Kale       | बाळू काळे       | 9594431631 | Mumbai |
+|  #  | Operator Name   | नाव           | Contact No | Place  |
+| :-: | --------------- | ------------- | ---------- | ------ |
+|  1  | Santosh Kalyani | संतोष कल्याणी | 9820554563 | Mumbai |
+|  2  | Sunil Shinde    | सुनील शिंदे   | 9594263469 | Mumbai |
+|  3  | Arjun Phalke    | अर्जुन फलके   | 9987820506 | Mumbai |
+|  4  | Vinayak Bankar  | विनायक बनकर   | 9867151173 | Mumbai |
+|  5  | Madhav Kate     | माधव काटे     | 8108759762 | Mumbai |
+|  6  | Muzammil Fakhi  | मुझामि फेकही  | 8975492339 | Mumbai |
+|  7  | Balu Kale       | बाळू काळे     | 9594431631 | Mumbai |
