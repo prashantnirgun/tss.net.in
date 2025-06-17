@@ -20,6 +20,7 @@ Its a specialised customised software for APMC traders all over India. We have m
 - [रिपोर्ट यादी](/products/desktop/business-plus-plus-marathi-report.html)
 - [दर पत्रक](/products/desktop/business-plus-plus-marathi-rate-cart.html)
 - [आवृत्ती](/products/desktop/version.html)
+- [प्रशिक्षण](/products/desktop/training-marathi.html)
 - स्क्रीनशॉट
   - [Login](/products/desktop/business-plus-plus-marathi-screen-shots.html#login)
   - [Master](/products/desktop/business-plus-plus-marathi-screen-shots.html#master)
@@ -37,6 +38,7 @@ Its a specialised customised software for APMC traders all over India. We have m
 - [Report List](/products/desktop/business-plus-plus-english-report.html)
 - [Rate Card](/products/desktop/business-plus-plus-english-rate-cart.html)
 - [Version](/products/desktop/version.html)
+- [Training](/products/desktop/training-english.html)
 - Screen Shots
   - [Login](/products/desktop/business-plus-plus-marathi-screen-shots.html#login)
   - [Master](/products/desktop/business-plus-plus-marathi-screen-shots.html#master)

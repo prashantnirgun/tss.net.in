@@ -14,6 +14,7 @@
 |  1  | Aditya Infotech  | Shivaji Sawant | 9322856742, 916747990, 022-27896766 | 213, Devi Annapurna Bldg, Sect-18, Nr. Mafco Market, Vashi                 | srccompu@rediffmail.com |
 |  2  | I Tech solution  | Tushar Chavan  | 9867879757                          | B-8, Mahavir Market,sec 18,Vashi Near Kanda batata market Sai satkar hotel | tchavan82@yahoo.in      |
 |  3  | Suntech Infotech | Kiran Rokade   | 9819163377                          |                                                                            |                         |
+|  4  | Kiran Enterprise | Kiran Kurale   | 9820074291                          | Printer Repair                                                             |                         |
 
 ### Operator
 
