@@ -1,4 +1,5 @@
 node_modules
-.vuepress/dist
+.vitepress/dist
+.vitepress/cache
 .git
 .gitignore
