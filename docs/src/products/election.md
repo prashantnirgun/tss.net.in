@@ -40,38 +40,38 @@ This system is designed to carry out the various activities in connection with t
 
 ## Dashbaord
 
-<img src="/images/election/Dashboard.png" width="45%"></img>
+<img src="/images/election/Dashboard.png" width="45%" />
 
 ## Area
 
-<img src="/images/election/Area.png" width="45%"></img>
+<img src="/images/election/Area.png" width="45%" />
 
 ### Voter List
 
-<img src="/images/election/Voter-Database.png" width="45%"></img>
-<img src="/images/election/Voter-List.png" width="45%"></img>
+<img src="/images/election/Voter-Database.png" width="45%" />
+<img src="/images/election/Voter-List.png" width="45%" />
 
 ## Volunteers
 
-<img src="/images/election/Volunteers.png" width="45%"></img>
-<img src="/images/election/Team-Managment.png" width="45%"></img>
+<img src="/images/election/Volunteers.png" width="45%" />
+<img src="/images/election/Team-Managment.png" width="45%" />
 
 ## Event Managment
 
-<img src="/images/election/Event-Category.png" width="45%"></img>
-<img src="/images/election/Event-Management.png" width="45%"></img>
+<img src="/images/election/Event-Category.png" width="45%" />
+<img src="/images/election/Event-Management.png" width="45%" />
 
 ## Expenses Managment
 
-<img src="/images/election/Expenses-Entry.png" width="45%"></img>
-<img src="/images/election/Expenses-Management.png" width="45%"></img>
+<img src="/images/election/Expenses-Entry.png" width="45%" />
+<img src="/images/election/Expenses-Management.png" width="45%" />
 
 ## Donation Record
 
-<img src="/images/election/Donation-Entry.png" width="45%"></img>
-<img src="/images/election/Donations.png" width="45%"></img>
+<img src="/images/election/Donation-Entry.png" width="45%" />
+<img src="/images/election/Donations.png" width="45%" />
 
 ## SMS Settings
 
-<img src="/images/election/SMS-Settings.png" width="45%"></img>
-<img src="/images/election/Change-Password.png" width="45%"></img>
+<img src="/images/election/SMS-Settings.png" width="45%" />
+<img src="/images/election/Change-Password.png" width="45%" />

@@ -20,7 +20,7 @@ There is one more sub type Nominal Member who dont have account with us but only
 - JV Example Loan Disbursement :
 -- Date : 01-01-2026, Voucher Type : Payment, Sub Ledger : Party A, Loan Id : 101
 -- HDFC Bank A/c Dr 1,00,000
--- To <Loan Scheme> Principal A/c Cr 1,00,000
+-- To &lt;Loan Scheme&gt; Principal A/c Cr 1,00,000
 -- (Being Loan disburse for party A Loan Id : 101)
 - Party Personal Ledger, Loan statement can be generated using Sub Ledger & Loan ID
 

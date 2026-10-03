@@ -53,53 +53,53 @@ Site is divided into two seprate parts one is for member and other is for office
 
 ### Login
 
-<img src="/images/credit-society/login.png" width="45%"></img>
+<img src="/images/credit-society/login.png" width="45%" />
 
 ### Member Information
 
-<img src="/images/credit-society/member-portal/info/member-info.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/info/member-bank.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/info/member-nominee.png" width="45%"></img>
+<img src="/images/credit-society/member-portal/info/member-info.png" width="45%" />
+<img src="/images/credit-society/member-portal/info/member-bank.png" width="45%" />
+<img src="/images/credit-society/member-portal/info/member-nominee.png" width="45%" />
 
 ### Member Loan
 
-<img src="/images/credit-society/member-portal/loan/loan.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/loan/loan-detail.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/loan/loan-installment.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/loan/loan-outstanding.png" width="45%"></img>
+<img src="/images/credit-society/member-portal/loan/loan.png" width="45%" />
+<img src="/images/credit-society/member-portal/loan/loan-detail.png" width="45%" />
+<img src="/images/credit-society/member-portal/loan/loan-installment.png" width="45%" />
+<img src="/images/credit-society/member-portal/loan/loan-outstanding.png" width="45%" />
 
 ### Memeber Shares & Deposit
 
-<img src="/images/credit-society/member-portal/deposit.png" width="45%"></img>
+<img src="/images/credit-society/member-portal/deposit.png" width="45%" />
 
 ## Screen Shots Office Staff Portal
 
 ### Login
 
-<img src="/images/credit-society/login.png" width="45%"></img>
+<img src="/images/credit-society/login.png" width="45%" />
 
 ### Managing Committee
 
-<img src="/images/credit-society/staff-portal/committee.png" width="45%"></img>
+<img src="/images/credit-society/staff-portal/committee.png" width="45%" />
 
 ### Scheme
 
-<img src="/images/credit-society/staff-portal/scheme/scheme.png" width="45%"></img>
-<img src="/images/credit-society/staff-portal/scheme/scheme-gl.png" width="45%"></img>
+<img src="/images/credit-society/staff-portal/scheme/scheme.png" width="45%" />
+<img src="/images/credit-society/staff-portal/scheme/scheme-gl.png" width="45%" />
 
 ### Loan
 
-<img src="/images/credit-society/staff-portal/loan/loan-register.png" width="45%"></img>
-<img src="/images/credit-society/staff-portal/loan/loan-details.png" width="45%"></img>
-<img src="/images/credit-society/staff-portal/loan/loan-installment.png" width="45%"></img>
-<img src="/images/credit-society/staff-portal/loan/loan-outstanding.png" width="45%"></img>
+<img src="/images/credit-society/staff-portal/loan/loan-register.png" width="45%" />
+<img src="/images/credit-society/staff-portal/loan/loan-details.png" width="45%" />
+<img src="/images/credit-society/staff-portal/loan/loan-installment.png" width="45%" />
+<img src="/images/credit-society/staff-portal/loan/loan-outstanding.png" width="45%" />
 
 ### Shares & Deposit
 
-<img src="/images/credit-society/staff-portal/deposit/deposit.png" width="45%"></img>
-<img src="/images/credit-society/staff-portal/deposit/deposit-installment.png" width="45%"></img>
+<img src="/images/credit-society/staff-portal/deposit/deposit.png" width="45%" />
+<img src="/images/credit-society/staff-portal/deposit/deposit-installment.png" width="45%" />
 
 ### Passbook
 
-<img src="/images/credit-society/staff-portal/passbook/passbook-front.jpg" width="45%"></img>
-<img src="/images/credit-society/staff-portal/passbook/passbook-details.jpg" width="45%"></img>
+<img src="/images/credit-society/staff-portal/passbook/passbook-front-min.jpg" width="45%" />
+<img src="/images/credit-society/staff-portal/passbook/passbook-details.jpg" width="45%" />

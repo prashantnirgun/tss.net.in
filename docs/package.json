@@ -2,26 +2,26 @@
   "name": "tss.net.in",
   "version": "0.0.1",
   "description": "Navi Mumbai based Software company provides Open Source Solutions for all your business needs.",
-  "main": "index.js",
+  "type": "module",
   "authors": {
     "name": "Prashant Nirgun",
     "email": ""
   },
   "repository": "/tss.net.in",
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.9.10",
-    "@vuepress/plugin-google-analytics": "^1.9.10",
-    "@vuepress/plugin-medium-zoom": "^1.9.10",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-flexsearch": "^0.3.0"
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.13"
   },
   "dependencies": {
-    "@vue-a11y/dark-mode": "^1.1.1",
     "markdown-it-imsize": "^2.0.1"
   }
 }

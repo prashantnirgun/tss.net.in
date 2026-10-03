@@ -26,10 +26,10 @@ meta:
 
 ### Login
 
-<img src="/images/credit-society/login.png" width="45%"></img>
+<img src="/images/credit-society/login.png" width="45%" />
 
 ### Member Information
 
-<img src="/images/credit-society/member-portal/info/member-info.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/info/member-bank.png" width="45%"></img>
-<img src="/images/credit-society/member-portal/info/member-nominee.png" width="45%"></img>
+<img src="/images/credit-society/member-portal/info/member-info.png" width="45%" />
+<img src="/images/credit-society/member-portal/info/member-bank.png" width="45%" />
+<img src="/images/credit-society/member-portal/info/member-nominee.png" width="45%" />

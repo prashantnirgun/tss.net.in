@@ -18,8 +18,8 @@ Please Don't Send Any SMS without Sender id and Approved Template From DLT
 
 ## Online Backup
 
-<img src="/images/bpp/english/Backup.png" width="45%"></img>
-<img src="/images/bpp/english/Backup-FTP.png" width="45%"></img>
+<img src="/images/bpp/english/Backup.png" width="45%" />
+<img src="/images/bpp/english/Backup-FTP.png" width="45%" />
 
 You can parked your backup on your website using FTP protocol. If you don't have webstorage we will provide you storage at nominal charges. It compress your backup file and upload to website. On site this file get encrypted automatically so no one will able to read the backup files. How ever if you subscribed to backup facility you can upload all your previous year data no such restriction. Facility is for uploading Business Plus Plus backup software others files such as videos, audio or any other files are not allowed. You can check the [rates](/products/desktop/business-plus-plus-english-rate-cart.html#yearly-charges) here and to order please contact [here](/products/desktop/business-plus-plus-english-rate-cart.html#to-book-your-order-please-give-us-call-on)
 
@@ -27,21 +27,21 @@ You can parked your backup on your website using FTP protocol. If you don't have
 
 ### Reports Marathi
 
-<img src="/images/wa/patti-marathi.jpg" width="45%"></img>
-<img src="/images/wa/memo-marathi.jpg" width="45%"></img>
-<img src="/images/wa/receipt-marathi.jpg" width="45%"></img>
-<img src="/images/wa/payment-marathi.jpg" width="45%"></img>
-<img src="/images/wa/bill-marathi.jpg" width="45%"></img>
-<img src="/images/wa/udhari-total-marathi.jpg" width="45%"></img>
+<img src="/images/wa/patti-marathi.jpg" width="45%" />
+<img src="/images/wa/memo-marathi.jpg" width="45%" />
+<img src="/images/wa/receipt-marathi.jpg" width="45%" />
+<img src="/images/wa/payment-marathi.jpg" width="45%" />
+<img src="/images/wa/bill-marathi.jpg" width="45%" />
+<img src="/images/wa/udhari-total-marathi.jpg" width="45%" />
 
 ### Reports English
 
-<img src="/images/wa/patti-english.jpg" width="45%"></img>
-<img src="/images/wa/memo-english.jpg" width="45%"></img>
-<img src="/images/wa/receipt-english.jpg" width="45%"></img>
-<img src="/images/wa/payment-english.jpg" width="45%"></img>
-<img src="/images/wa/bill-english.jpg" width="45%"></img>
-<img src="/images/wa/udhari-total-english.jpg" width="45%"></img>
+<img src="/images/wa/patti-english.jpg" width="45%" />
+<img src="/images/wa/memo-english.jpg" width="45%" />
+<img src="/images/wa/receipt-english.jpg" width="45%" />
+<img src="/images/wa/payment-english.jpg" width="45%" />
+<img src="/images/wa/bill-english.jpg" width="45%" />
+<img src="/images/wa/udhari-total-english.jpg" width="45%" />
 
 ### Requirement
 
@@ -57,10 +57,10 @@ If you had SMS previously running please ignore this section. It must be already
 - Create Template : Click Add button and follow images instruction. Read more [template](#what-is-templates) [variable](#what-is-variables)
 - Send Message : Follow the image
 
-<img src="/images/bpp/english/wa/settings.png" width="45%"></img>
-<img src="/images/bpp/english/wa/Create-Template-Table.png" width="45%"></img>
-<img src="/images/bpp/english/wa/Create-Template.png" width="45%"></img>
-<img src="/images/bpp/english/wa/send-message.png" width="45%"></img>
+<img src="/images/bpp/english/wa/settings.png" width="45%" />
+<img src="/images/bpp/english/wa/Create-Template-Table.png" width="45%" />
+<img src="/images/bpp/english/wa/Create-Template.png" width="45%" />
+<img src="/images/bpp/english/wa/send-message.png" width="45%" />
 
 ### What is Templates ?
 

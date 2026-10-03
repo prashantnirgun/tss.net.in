@@ -1,9 +1,16 @@
 ---
-home: true
-heroImage: /images/logo.jpg
-tagline:
-actionText: Product & Services →
-actionLink: /products/desktop
+layout: home
+
+hero:
+  name: The Software Source
+  tagline: Open Source business solutions, customized for the client.
+  image:
+    src: /images/logo.jpg
+    alt: The Software Source
+  actions:
+    - theme: brand
+      text: Product & Services →
+      link: /products/desktop
 
 features:
   - title: APMC Accounting Software
@@ -18,9 +25,6 @@ features:
     details: Online portal which track voter list categorised them, Handle election campaign, SMS, Print Voter list, Card and other important reports.
   - title: E-Governance
     details: Desktop Application for SETU Project of Govt. Which facilitates to provide services of Caste, Non-Cremy Layer, Income, Sr Citizen, Property Card and various Central & State Govt schemes.
-footer: © Copyright The Software Source. 2026
 ---
-
-<!-- <ToggleDarkMode/> -->
 
 We are offering Open Source solution customized for the client. Software development for finance and banking vertical is a mission-critical, yet very lucrative domain. We are specializing in financial software development. We develop and deploy comprehensive accounting and finance software solutions for various institutions that need to process a multitude of transactions, to keep track of assets and liabilities, to conduct ongoing financial operations, and to reconcile their cash workflow.

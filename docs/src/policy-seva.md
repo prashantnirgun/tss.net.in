@@ -34,7 +34,7 @@
    - Paid Member
 1. API (Mobile) & Database Server
 1. Admin Website (Backend) - Agent / Operator - Directors  
-   Testing use cases & for all products & Services</p>
+   Testing use cases & for all products & Services
 
 ## Deployment (Going Live)- 1 Week
 

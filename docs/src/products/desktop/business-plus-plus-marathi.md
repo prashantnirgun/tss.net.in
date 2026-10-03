@@ -60,8 +60,8 @@ meta:
 
 ## ऑनलाईन बॅकअप
 
-<img src="/images/bpp/english/Backup.png" width="45%"></img>
-<img src="/images/bpp/english/Backup-FTP.png" width="45%"></img>
+<img src="/images/bpp/english/Backup.png" width="45%" />
+<img src="/images/bpp/english/Backup-FTP.png" width="45%" />
 
 तुम्ही तुमच्या सॉफ्टवेअर चा बॅकअप तुमच्या वेबसाईटवर च्या माध्यमातून अपलोड करू शकता. जर तुमच्या कडे स्वतःची वेब स्टोरेज नसेल तर आम्ही माफक दरात हि सुविधा आपल्याला उपलब्ध करून दिली आहे. बॅकअप वेबसाईटवर अपलोड केल्यावर त्या फाईल्स कुटबद्ध होतात जेणे करून कोणालाही तुमचा बॅकअप फाईल्स वाचता येणार नाहीत. जर तुम्ही बॅकअप सुविधा घेतली असेल तर मागील सर्व वर्षांचा डेटा हि तुम्ही अपलोड करू शकता त्यावर कोणतेही बंधन नाही. हि सुविधा फक्त बिझनेस प्लस सॉफ्टवेअर चा डेटा फाईल्स साठी मर्यादित आहे. इतर फाईल्स जसे विडिओ, ऑडिओ आणि इतर कोणत्याही फाईल्स साठी नाही. हि सुविधा किती रकमेला उपलब्ध आहे ते तपासण्यासाठी [येथे क्लीक करा](/products/desktop/business-plus-plus-english-rate-cart.html#yearly-charges) खरेदी करण्यासाठी [येथे क्लिक करा](/products/desktop/business-plus-plus-english-rate-cart.html#to-book-your-order-please-give-us-call-on)
 

@@ -40,9 +40,10 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-docs/src/.vuepress/dist
-docs/src/.vuepress/deploy.sh
-docs/src/.vuepress/tss.net.in.zip
+docs/src/.vitepress/dist
+docs/src/.vitepress/cache
+docs/src/.vitepress/deploy.sh
+docs/src/.vitepress/tss.net.in.zip
 
 # TypeScript v1 declaration files
 typings/
@@ -91,8 +92,9 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
-.vuepress/dist
+# vitepress build output
+.vitepress/dist
+.vitepress/cache
 
 # Serverless directories
 .serverless/

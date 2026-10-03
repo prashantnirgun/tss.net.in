@@ -1,9 +1,14 @@
-FROM node:16.20.2-slim as base
+# VitePress needs Node 18+; 22 is the current LTS.
+FROM node:22-slim AS base
 WORKDIR /app/docs
-ENV NODE_ENV=production
 
-COPY /docs/package.json .
-RUN npm install
+# NODE_ENV=production is deliberately NOT set here: vitepress is a
+# devDependency, so npm would skip it and the build would fail.
+COPY docs/package.json docs/package-lock.json ./
+RUN npm ci
+
 COPY . ../
-EXPOSE 8080
-# CMD [ "npm","run", "dev -host 0.0.0.0" ]
+
+# Vite's dev server port
+EXPOSE 5173
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

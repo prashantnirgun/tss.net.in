@@ -1,13 +1,16 @@
 services:
-  tss-vuepress:
+  tss-vitepress:
     container_name: "tss-container"
     image: "tss-image"
     build:
       context: .
       dockerfile: Dockerfile
+    working_dir: /app/docs
     ports:
-      - "8080:8080"
+      # Vite's dev server, not 8080
+      - "5173:5173"
     volumes:
       - .:/app
-      - /app/node_modules
-    command: npm run dev -host 0.0.0.0
+      # node_modules lives in docs/, so keep the image's copy there
+      - /app/docs/node_modules
+    command: npm run dev -- --host 0.0.0.0
