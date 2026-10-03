@@ -1,4 +1,18 @@
-# About Us
+---
+layout: page
+pageClass: corporate
+sidebar: false
+aside: false
+title: About Us
+---
+
+<PageHero
+  eyebrow="About us"
+  title="We build software that has to balance"
+  lede="Full-stack, JamStack, WAMP, LAMP and MEVN delivery, on an open source foundation."
+/>
+
+<div class="Prose vp-doc">
 
 - Fullstack
 - JamStack
@@ -22,3 +36,7 @@
 - **WebServer** : Apache2
 - **Repositories** : GitHub (Public), BitBucket (Private)
 - **Operating System** - DOS, Windows X (Desktop & NT), Linux (RHEL & Debian)
+
+</div>
+
+<CtaBand />

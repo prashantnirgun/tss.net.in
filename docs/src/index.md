@@ -1,30 +1,26 @@
 ---
-layout: home
-
-hero:
-  name: The Software Source
-  tagline: Open Source business solutions, customized for the client.
-  image:
-    src: /images/logo.jpg
-    alt: The Software Source
-  actions:
-    - theme: brand
-      text: Product & Services →
-      link: /products/desktop
-
-features:
-  - title: APMC Accounting Software
-    details: Multi Lingual Desktop Accounting Software for APMC vendors, Handle Taxation of out state items, Basic inventory, General Accouting, SMS, Online Backup, Network Ready. 300+ Customer accross Maharashtra.
-  - title: Credit Co-Op Soc (Banking)
-    details: Online Banking portal for Staff Co Operative Credit Society. Handle multiple Loan & Deposite scheme, Passbook, Auto SMS reply for loan queries, General Accounting.
-  - title: E-Commerce
-    details: E-commerce portal for online sales, accounting, invetory, GST, Multiple Rate List, Fixed Tender rates, Flash Sales, Payment Gateway, Google Analytics, Multiple delivery address, Guest Login & Payment, Order Tracking.
-  - title: GST Retail Software
-    details: Desktop Accounting Software for SME, Handle Easy billing, taxation, inventory, General Accouting, SMS, Online Backup, Network Ready.
-  - title: Election Portal
-    details: Online portal which track voter list categorised them, Handle election campaign, SMS, Print Voter list, Card and other important reports.
-  - title: E-Governance
-    details: Desktop Application for SETU Project of Govt. Which facilitates to provide services of Caste, Non-Cremy Layer, Income, Sr Citizen, Property Card and various Central & State Govt schemes.
+layout: page
+pageClass: corporate
+sidebar: false
+aside: false
+title: Open source business software
+description: Navi Mumbai based software company providing open source accounting, banking and e-commerce solutions for business.
 ---
 
-We are offering Open Source solution customized for the client. Software development for finance and banking vertical is a mission-critical, yet very lucrative domain. We are specializing in financial software development. We develop and deploy comprehensive accounting and finance software solutions for various institutions that need to process a multitude of transactions, to keep track of assets and liabilities, to conduct ongoing financial operations, and to reconcile their cash workflow.
+<PageHero
+  eyebrow="The Software Source · Navi Mumbai"
+  title="Open source business software, built around how you actually work"
+  lede="We develop and deploy accounting and finance software for institutions that process a high volume of transactions — tracking assets and liabilities, running day-to-day financial operations and reconciling cash workflow."
+  :actions="[
+    { text: 'Products & services', link: '/products/desktop.html', theme: 'brand' },
+    { text: 'Talk to us', link: '/contact-us.html', theme: 'ghost' },
+  ]"
+/>
+
+<StatStrip />
+
+<SolutionGrid />
+
+<CapabilityBand />
+
+<CtaBand />

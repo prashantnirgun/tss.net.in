@@ -71,23 +71,39 @@ export default defineConfig({
       provider: "local",
     },
 
+    // Four top-level items, not six. The desktop menu appears at 768px, and
+    // six items measured 482px there - wide enough to push the page into a
+    // horizontal scroll on an iPad in portrait. Grouping fixes that without
+    // overriding the theme's nav breakpoints (the mobile nav screen is gated
+    // at the same 768px, so unhiding the hamburger above it breaks the menu).
     nav: [
       {
         text: "Products",
         items: [
           // was /products/desktop/ in the VuePress config, which 404'd
-          { text: "Desktop", link: "/products/desktop" },
+          { text: "Desktop Applications", link: "/products/desktop" },
           { text: "Web Portals", link: "/products/web-portals" },
           { text: "Services", link: "/products/services" },
           { text: "Tally Prime", link: "/products/tally" },
         ],
       },
-      // was /about.html, which 404'd: the page builds to /about/
-      { text: "About", link: "/about/" },
-      { text: "Career", link: "/career" },
-      { text: "Bank", link: "/bank" },
-      { text: "Download", link: "/download" },
-      { text: "Contact Us", link: "/contact-us" },
+      {
+        text: "Support",
+        items: [
+          { text: "Downloads", link: "/download" },
+          { text: "Training", link: "/training/bpp-desktop" },
+          { text: "Bank Details", link: "/bank" },
+        ],
+      },
+      {
+        text: "Company",
+        items: [
+          // was /about.html, which 404'd: the page builds to /about/
+          { text: "About Us", link: "/about/" },
+          { text: "Career", link: "/career" },
+        ],
+      },
+      { text: "Contact", link: "/contact-us" },
     ],
 
     sidebar: [

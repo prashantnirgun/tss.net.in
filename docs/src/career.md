@@ -1,12 +1,18 @@
 ---
-meta:
-  - name: description
-    content: Career
-  - name: keywords
-    content: Career
+layout: page
+pageClass: corporate
+sidebar: false
+aside: false
+title: Career
 ---
 
-# Career
+<PageHero
+  eyebrow="Career"
+  title="Join us in Navi Mumbai"
+  lede="If you are excited to shape the innovations of tomorrow, we want to hear from you."
+/>
+
+<div class="Prose vp-doc">
 
 ![Career](/images/vashi-times.jpeg =600x400)
 
@@ -164,3 +170,7 @@ This is an **unpaid internship**; no salary or stipend will be provided during t
 1. Test for minimum passing 60%
 1. After qualifying the 1st test round 2nd round face to face interview.
 1. Selected candidates need to share their documents.
+
+</div>
+
+<CtaBand />

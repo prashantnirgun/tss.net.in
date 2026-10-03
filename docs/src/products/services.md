@@ -1,4 +1,18 @@
-# Services
+---
+layout: page
+pageClass: corporate
+sidebar: false
+aside: false
+title: Services
+---
+
+<PageHero
+  eyebrow="Services"
+  title="SMS, backup and WhatsApp messaging"
+  lede="Integrations and operational services that run alongside the software we deliver."
+/>
+
+<div class="Prose vp-doc">
 
 ## SMS
 
@@ -98,3 +112,7 @@ If you have more than one template make sure one should be default template in s
 ## Partner
 
 Please find the [hardware vendor](/products/desktop/partner.html#hardware-vendor) and [software operator](/products/desktop/partner.html#operator) list.
+
+</div>
+
+<CtaBand />

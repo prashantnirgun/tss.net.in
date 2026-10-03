@@ -1,4 +1,18 @@
-# Web Portals
+---
+layout: page
+pageClass: corporate
+sidebar: false
+aside: false
+title: Web Portals
+---
+
+<PageHero
+  eyebrow="Products"
+  title="Web portals"
+  lede="Online banking, e-commerce and election platforms, delivered end to end."
+/>
+
+<div class="Prose vp-doc">
 
 ## [E-commerce](/products/e-commerce.html)
 
@@ -13,3 +27,7 @@ Online Banking portal for Staff Co Operative Credit Society. Handle multiple Loa
 ## [Election Webapp](/products/election.html)
 
 Online portal which track voter list categorised them, Handle election campaign, SMS, Print Voter list, Card and other important reports.
+
+</div>
+
+<CtaBand />

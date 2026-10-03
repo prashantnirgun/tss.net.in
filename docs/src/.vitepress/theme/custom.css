@@ -1,61 +1,744 @@
-/**
- * Ported from the VuePress styles/palette.styl + styles/index.styl.
- *
- * The old palette set $accentColor = #3eaf7c (also the theme-color meta tag),
- * so the brand tokens below keep that green. VitePress uses --vp-c-brand-1 for
- * link and accent *text*, and #3eaf7c on white is only 2.8:1 — under the 4.5:1
- * AA threshold — so brand-1 is a darker shade of the same hue (4.9:1) while
- * brand-2/3 keep the original green for buttons and hover states.
- */
+/* =========================================================================
+   The Software Source - corporate theme over the VitePress default theme.
+
+   Palette is sampled from the company logo (public/images/logo.jpg):
+   #1547aa royal blue (the mark) and #02a4d5 cyan (the border rule).
+   The previous #3eaf7c green was never a brand colour - it was the stock
+   VuePress default that shipped with the original scaffold.
+
+   Contrast: #1547aa on white is 8.4:1, safe for body text. #02a4d5 is only
+   2.9:1, so it is used for rules, fills and large display text, never for
+   small text on a light ground.
+   ========================================================================= */
+
 :root {
-  --vp-c-brand-1: #26805a;
-  --vp-c-brand-2: #3eaf7c;
-  --vp-c-brand-3: #3eaf7c;
-  --vp-c-brand-soft: rgba(62, 175, 124, 0.14);
+  --tss-blue: #1547aa;
+  --tss-blue-dark: #0f357f;
+  --tss-blue-darker: #0a2456;
+  --tss-blue-light: #2d63cc;
+  --tss-cyan: #02a4d5;
+  /* Eyebrow labels are 12.5px, so they need 4.5:1. The logo cyan is 2.9:1 on
+     white and #0288b2 only reaches 4.06:1; this shade measures 5.1:1. */
+  --tss-cyan-dark: #02779c;
+
+  --tss-ink: #16202e;
+  --tss-muted: #55657d;
+  --tss-line: #e2e8f2;
+  --tss-tint: #f5f8fc;
+
+  --tss-max: 1200px;
+  --tss-gutter: 24px;
+
+  /* Map the default theme brand tokens onto the logo blue. */
+  --vp-c-brand-1: var(--tss-blue);
+  --vp-c-brand-2: var(--tss-blue-light);
+  --vp-c-brand-3: var(--tss-blue);
+  --vp-c-brand-soft: rgba(21, 71, 170, 0.12);
+
+  --vp-button-brand-bg: var(--tss-blue);
+  --vp-button-brand-hover-bg: var(--tss-blue-dark);
+  --vp-button-brand-active-bg: var(--tss-blue-darker);
+  --vp-button-brand-border: transparent;
+
+  --vp-c-text-1: var(--tss-ink);
+  --vp-layout-max-width: 1440px;
 }
 
 .dark {
-  --vp-c-brand-1: #4ecb8d;
-  --vp-c-brand-2: #3eaf7c;
-  --vp-c-brand-3: #2e8f66;
-  --vp-c-brand-soft: rgba(62, 175, 124, 0.16);
+  --tss-ink: #e7ecf3;
+  --tss-muted: #9aa8bd;
+  --tss-line: #2b3545;
+  --tss-tint: #161b24;
+
+  --vp-c-brand-1: #74a9ff;
+  --vp-c-brand-2: #8fbaff;
+  --vp-c-brand-3: #2d63cc;
+  --vp-c-brand-soft: rgba(116, 169, 255, 0.16);
+
+  --vp-button-brand-bg: var(--tss-blue-light);
+  --vp-button-brand-hover-bg: #3b72d9;
 }
 
-/**
- * The default theme hides the site footer on every page that has a sidebar
- * (`.VPFooter.has-sidebar { display: none }`), which here means everywhere
- * except the home page. This site wants the copyright line on all pages, so
- * unhide it and mirror VPContent's sidebar offsets at the same breakpoints,
- * otherwise the centred text sits under the fixed sidebar instead of over the
- * content column.
- *
- * `.Layout` is prepended to outrank the theme's scoped `.VPFooter[data-v-*]`
- * rule, which has the same specificity as a bare `.VPFooter.has-sidebar`.
- */
-.Layout .VPFooter.has-sidebar {
+/* -------------------------------------------------------------------------
+   Header
+   ------------------------------------------------------------------------- */
+
+.VPNavBar .title {
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.VPNavBarMenuLink,
+.VPNavBarMenuGroup .VPFlyout .button {
+  font-weight: 550;
+}
+
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-brand-1);
+}
+
+/* The theme switches to the desktop nav at 768px. At that width the title
+   (191px), the expanded search box (175px), the menu (381px) and the overflow
+   flyout (44px) need 791px inside a 704px container, so every page scrolled
+   sideways on an iPad in portrait. Keep the search collapsed to its icon until
+   960px - exactly what the theme already does below 768px - which frees about
+   115px and brings the row back inside the container. */
+@media (min-width: 768px) and (max-width: 959.98px) {
+  .VPNavBar .DocSearch-Button-Placeholder,
+  .VPNavBar .DocSearch-Button-Keys {
+    display: none;
+  }
+
+  .VPNavBar .VPNavBarSearch {
+    flex-grow: 0;
+    padding-left: 16px;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Shared section furniture
+   ------------------------------------------------------------------------- */
+
+.Section {
+  padding: 72px var(--tss-gutter);
+}
+
+.Section--tint {
+  background: var(--tss-tint);
+  border-block: 1px solid var(--tss-line);
+}
+
+.Section-inner {
+  margin: 0 auto;
+  max-width: var(--tss-max);
+}
+
+.Section-head {
+  max-width: 46rem;
+  margin-bottom: 44px;
+}
+
+.Section-eyebrow,
+.PageHero-eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--tss-cyan-dark);
+}
+
+.dark .Section-eyebrow {
+  color: var(--tss-cyan);
+}
+
+.Section-title {
+  margin: 0;
+  font-size: clamp(1.65rem, 1.2rem + 2vw, 2.4rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: var(--tss-ink);
+  border: 0;
+  padding: 0;
+}
+
+.Section-lede {
+  margin: 16px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--tss-muted);
+}
+
+.Section-foot {
+  margin: 36px 0 0;
+  font-weight: 600;
+}
+
+.Section-foot a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.Section-foot a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------
+   Hero
+   ------------------------------------------------------------------------- */
+
+.PageHero {
+  position: relative;
+  padding: 88px var(--tss-gutter) 80px;
+  background:
+    radial-gradient(
+      1100px 420px at 78% -12%,
+      rgba(2, 164, 213, 0.22),
+      transparent 62%
+    ),
+    linear-gradient(160deg, var(--tss-blue-darker), var(--tss-blue) 64%);
+  color: #fff;
+  overflow: hidden;
+}
+
+.PageHero::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--tss-cyan), transparent 70%);
+}
+
+.PageHero-inner {
+  margin: 0 auto;
+  max-width: var(--tss-max);
+}
+
+.PageHero-eyebrow {
+  color: #8fe2ff;
+}
+
+.PageHero-title {
+  margin: 0;
+  max-width: 20ch;
+  font-size: clamp(2.1rem, 1.3rem + 3.4vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  padding: 0;
+}
+
+.PageHero-lede {
+  margin: 22px 0 0;
+  max-width: 54ch;
+  font-size: 1.12rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.PageHero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 36px;
+}
+
+.PageHero-btn {
+  display: inline-block;
+  padding: 13px 26px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 650;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.PageHero-btn.is-brand,
+.PageHero-btn.is-invert {
+  background: #fff;
+  color: var(--tss-blue-dark);
+}
+
+.PageHero-btn.is-brand:hover,
+.PageHero-btn.is-invert:hover {
+  background: #e8f4ff;
+}
+
+.PageHero-btn.is-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.PageHero-btn.is-ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #fff;
+}
+
+/* -------------------------------------------------------------------------
+   Stat strip
+   ------------------------------------------------------------------------- */
+
+.StatStrip {
+  padding: 0 var(--tss-gutter);
+  background: var(--vp-c-bg);
+}
+
+.StatStrip-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1px;
+  margin: 0 auto;
+  max-width: var(--tss-max);
+  background: var(--tss-line);
+  border: 1px solid var(--tss-line);
+  border-radius: 12px;
+  overflow: hidden;
+  transform: translateY(-36px);
+}
+
+.StatStrip-item {
+  margin: 0;
+  padding: 26px 24px;
+  background: var(--vp-c-bg);
+}
+
+.StatStrip-figure {
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--tss-blue);
+  line-height: 1.1;
+}
+
+.dark .StatStrip-figure {
+  color: #74a9ff;
+}
+
+.StatStrip-label {
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--tss-muted);
+}
+
+/* -------------------------------------------------------------------------
+   Cards
+   ------------------------------------------------------------------------- */
+
+.CardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Card {
+  margin: 0;
+}
+
+.Card-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 26px 24px 24px;
+  border: 1px solid var(--tss-line);
+  border-radius: 12px;
+  background: var(--vp-c-bg);
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.Card-link:hover {
+  border-color: var(--tss-blue-light);
+  box-shadow: 0 10px 28px rgba(21, 71, 170, 0.1);
+  transform: translateY(-2px);
+}
+
+.Card-tag {
+  align-self: flex-start;
+  margin-bottom: 14px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--vp-c-brand-soft);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--vp-c-brand-1);
+}
+
+.Card-title {
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 650;
+  line-height: 1.3;
+  color: var(--tss-ink);
+}
+
+.Card-body {
+  margin: 10px 0 0;
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--tss-muted);
+  flex-grow: 1;
+}
+
+.Card-cta {
+  margin-top: 18px;
+  font-size: 0.9rem;
+  font-weight: 650;
+  color: var(--vp-c-brand-1);
+}
+
+/* -------------------------------------------------------------------------
+   Capabilities
+   ------------------------------------------------------------------------- */
+
+.CapabilityGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 28px;
+}
+
+.Capability-title {
+  margin: 0 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--tss-cyan);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tss-ink);
+}
+
+.Capability-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Capability-tags li {
+  padding: 5px 11px;
+  border: 1px solid var(--tss-line);
+  border-radius: 6px;
+  background: var(--vp-c-bg);
+  font-size: 0.85rem;
+  color: var(--tss-muted);
+}
+
+/* -------------------------------------------------------------------------
+   CTA band
+   ------------------------------------------------------------------------- */
+
+.CtaBand {
+  padding: 64px var(--tss-gutter);
+  background: linear-gradient(135deg, var(--tss-blue-dark), var(--tss-blue));
+  color: #fff;
+}
+
+.CtaBand-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 0 auto;
+  max-width: var(--tss-max);
+}
+
+.CtaBand-copy {
+  max-width: 44rem;
+}
+
+.CtaBand-copy h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 1.1rem + 1.8vw, 2.1rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  padding: 0;
+}
+
+.CtaBand-copy p {
+  margin: 12px 0 0;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.CtaBand-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+/* -------------------------------------------------------------------------
+   Corporate page shell: strip VPPage padding so the bands run edge to edge
+   ------------------------------------------------------------------------- */
+
+.Layout.corporate .VPPage {
+  padding: 0;
+  max-width: none;
+}
+
+.Layout.corporate .VPContent {
+  padding-bottom: 0;
+}
+
+/* Markdown written below the components on a corporate page */
+.Layout.corporate .Prose {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 72px var(--tss-gutter);
+}
+
+/* Corporate pages are not wrapped in .vp-doc, so the containment rules that
+   keep wide media from stretching the page have to be repeated here. The
+   Google Maps embed on /contact-us.html is a hard-coded width="600" and was
+   forcing a 234px horizontal scroll at phone widths. */
+.Prose img,
+.Prose iframe,
+.Prose video {
+  max-width: 100%;
+}
+
+.Prose iframe {
+  aspect-ratio: 4 / 3;
+  height: auto;
+}
+
+.Prose table {
   display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
-@media (min-width: 960px) {
-  .Layout .VPFooter.has-sidebar {
-    padding-left: calc(var(--vp-sidebar-width) + 32px);
+/* -------------------------------------------------------------------------
+   Contact page
+   ------------------------------------------------------------------------- */
+
+.ContactLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  gap: 48px;
+  align-items: start;
+}
+
+.ContactDetails h3 {
+  margin: 0 0 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tss-cyan-dark);
+  border: 0;
+  padding: 0;
+}
+
+.dark .ContactDetails h3 {
+  color: var(--tss-cyan);
+}
+
+.ContactDetails > :is(address, p) {
+  margin: 0 0 32px;
+}
+
+.ContactDetails address {
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--tss-muted);
+}
+
+.ContactDetails img {
+  max-height: 26px;
+  width: auto;
+}
+
+.ContactMap iframe {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--tss-line);
+  border-radius: 12px;
+}
+
+@media (max-width: 860px) {
+  .ContactLayout {
+    grid-template-columns: 1fr;
+    gap: 36px;
   }
 }
 
-@media (min-width: 1440px) {
-  .Layout .VPFooter.has-sidebar {
-    padding-right: calc((100vw - var(--vp-layout-max-width)) / 2 + 32px);
-    padding-left: calc(
-      (100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) + 32px
-    );
+/* -------------------------------------------------------------------------
+   Site footer
+   ------------------------------------------------------------------------- */
+
+.SiteFooter {
+  border-top: 1px solid var(--tss-line);
+  background: var(--tss-tint);
+}
+
+.SiteFooter-inner {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1.3fr;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: var(--tss-max);
+  padding: 56px var(--tss-gutter) 44px;
+}
+
+.SiteFooter-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--tss-ink);
+  text-decoration: none;
+}
+
+.SiteFooter-logo img {
+  border-radius: 6px;
+}
+
+.SiteFooter-blurb {
+  margin: 16px 0 0;
+  max-width: 34ch;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--tss-muted);
+}
+
+.SiteFooter-col h2 {
+  margin: 0 0 16px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tss-ink);
+  border: 0;
+  padding: 0;
+}
+
+.SiteFooter-col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.SiteFooter-col li + li {
+  margin-top: 10px;
+}
+
+.SiteFooter-col a {
+  font-size: 0.9rem;
+  color: var(--tss-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.SiteFooter-col a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.SiteFooter-contact address {
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--tss-muted);
+}
+
+.SiteFooter-contactImages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.SiteFooter-contactImages img {
+  max-height: 22px;
+  width: auto;
+}
+
+.SiteFooter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 auto;
+  max-width: var(--tss-max);
+  padding: 20px var(--tss-gutter);
+  border-top: 1px solid var(--tss-line);
+}
+
+.SiteFooter-bar p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--tss-muted);
+}
+
+/* The one-line default-theme footer is replaced by SiteFooter. */
+.VPFooter {
+  display: none !important;
+}
+
+/* -------------------------------------------------------------------------
+   Doc pages: inherit the branding without losing the doc layout
+   ------------------------------------------------------------------------- */
+
+.vp-doc h1 {
+  letter-spacing: -0.025em;
+}
+
+.vp-doc h2 {
+  padding-top: 20px;
+  border-top: 1px solid var(--tss-line);
+  letter-spacing: -0.015em;
+}
+
+/* Wide tables scroll inside their own box instead of stretching the page.
+   The 3-column UPI table on /bank.html used to force a horizontal scrollbar
+   on the whole document at phone widths. */
+.vp-doc table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.vp-doc img,
+.vp-doc iframe {
+  max-width: 100%;
+}
+
+/* -------------------------------------------------------------------------
+   Responsive
+   ------------------------------------------------------------------------- */
+
+@media (max-width: 960px) {
+  .SiteFooter-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  .SiteFooter-brand {
+    grid-column: 1 / -1;
   }
 }
 
-/* was `.home .hero img { max-width: 450px !important }` in index.styl */
-:root {
-  --vp-home-hero-image-filter: none;
-}
+@media (max-width: 720px) {
+  .Section,
+  .CtaBand {
+    padding-block: 56px;
+  }
 
-.VPHero .VPImage {
-  max-width: 450px;
+  .PageHero {
+    padding-block: 64px 56px;
+  }
+
+  .StatStrip-inner {
+    transform: translateY(-24px);
+  }
+
+  .SiteFooter-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .SiteFooter-bar {
+    justify-content: flex-start;
+  }
 }
