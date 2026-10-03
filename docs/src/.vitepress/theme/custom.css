@@ -21,6 +21,36 @@
   --vp-c-brand-soft: rgba(62, 175, 124, 0.16);
 }
 
+/**
+ * The default theme hides the site footer on every page that has a sidebar
+ * (`.VPFooter.has-sidebar { display: none }`), which here means everywhere
+ * except the home page. This site wants the copyright line on all pages, so
+ * unhide it and mirror VPContent's sidebar offsets at the same breakpoints,
+ * otherwise the centred text sits under the fixed sidebar instead of over the
+ * content column.
+ *
+ * `.Layout` is prepended to outrank the theme's scoped `.VPFooter[data-v-*]`
+ * rule, which has the same specificity as a bare `.VPFooter.has-sidebar`.
+ */
+.Layout .VPFooter.has-sidebar {
+  display: block;
+}
+
+@media (min-width: 960px) {
+  .Layout .VPFooter.has-sidebar {
+    padding-left: calc(var(--vp-sidebar-width) + 32px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .Layout .VPFooter.has-sidebar {
+    padding-right: calc((100vw - var(--vp-layout-max-width)) / 2 + 32px);
+    padding-left: calc(
+      (100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) + 32px
+    );
+  }
+}
+
 /* was `.home .hero img { max-width: 450px !important }` in index.styl */
 :root {
   --vp-home-hero-image-filter: none;
