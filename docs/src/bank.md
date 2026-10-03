@@ -13,3 +13,5 @@
 | Payment Gateway | UPI ID         | QR Code                                    |
 | --------------- | -------------- | ------------------------------------------ |
 | Phone Pe        | 9324360777@ybl | ![Phone](/images/phone_pe_qr.png =100x100) |
+
+<Footer />

@@ -8,12 +8,12 @@ meta:
 
 ## Software one time Rates
 
-| Pariculars                                                                                                                   | Veg & Fruit | Onion | With Audit |
-| ---------------------------------------------------------------------------------------------------------------------------- | ----------: | ----: | ---------: |
-| Patti, Memo, Udhari, Cash Bank, Caret, Ledgers, Summary reports, SMS module, Software Training                               |         Yes |   Yes |        Yes |
-| Final Accounts report suchase Trial Balance, Profit and loss statement, Balancesheet and other reports arequired by auditors |          No |    No |        Yes |
-| Export to Tally                                                                                                              |          No |    No |        Yes |
-| Desktop Software Price without GST                                                                                           |       9,000 | 9,000 |     15,000 |
+| Pariculars                                                                                                                   | Veg & Fruit |  Onion | With Audit |
+| ---------------------------------------------------------------------------------------------------------------------------- | ----------: | -----: | ---------: |
+| Patti, Memo, Udhari, Cash Bank, Caret, Ledgers, Summary reports, SMS module, Software Training                               |         Yes |    Yes |        Yes |
+| Final Accounts report suchase Trial Balance, Profit and loss statement, Balancesheet and other reports arequired by auditors |          No |     No |        Yes |
+| Export to Tally                                                                                                              |          No |     No |        Yes |
+| Desktop Software Price without GST                                                                                           |      10,000 | 10,000 |     15,000 |
 
 ## Additional Modules one time Rates
 

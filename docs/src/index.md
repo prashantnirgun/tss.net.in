@@ -18,7 +18,7 @@ features:
     details: Online portal which track voter list categorised them, Handle election campaign, SMS, Print Voter list, Card and other important reports.
   - title: E-Governance
     details: Desktop Application for SETU Project of Govt. Which facilitates to provide services of Caste, Non-Cremy Layer, Income, Sr Citizen, Property Card and various Central & State Govt schemes.
-footer: Made by The Software Source
+footer: © Copyright The Software Source. 2026
 ---
 
 <!-- <ToggleDarkMode/> -->

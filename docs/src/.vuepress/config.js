@@ -53,28 +53,28 @@ module.exports = {
           { text: "Desktop", link: "/products/desktop/" },
           { text: "Web Portals", link: "/products/web-portals/" },
           { text: "Services", link: "/products/services/" },
-          { text: "Tally Prime", link: "/products/tally/" },
+          { text: "Tally Prime", link: "/products/tally.html" },
         ],
       },
       {
         text: "About",
-        link: "/about/",
+        link: "/about.html",
       },
       {
-        text: "Training",
-        items: [{ text: "BPP Desktop", link: "/training/bpp-desktop/" }],
+        text: "Career",
+        link: "/career.html",
       },
       {
         text: "Bank",
-        link: "/bank/",
+        link: "/bank.html",
       },
       {
         text: "Download",
-        link: "/download/",
+        link: "/download.html",
       },
       {
         text: "Contact Us",
-        link: "/contact-us/",
+        link: "/contact-us.html",
       },
     ],
     sidebar: [

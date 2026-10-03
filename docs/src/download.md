@@ -1,27 +1,8 @@
----
-tags: Download, Patch
-meta:
-  - name: description
-    content: Download latest patch driver APMC Mandi software
-  - name: keywords
-    content: apmc mandi market software navi mumbai
----
-
 # Download
 
-## Application
+## Applications
 
-| Name                                                                       | Release List |
-| -------------------------------------------------------------------------- | ------------ |
-| [BPP APMC (2025)](</download/patch/BPP%20APMC%20(2025)-Stable%204.16.exe>) | 15-06-2025   |
-| [BPP Retail (2023)](</download/patch/BPP%20RETAIL%20(2023)-Ver%200.2.exe>) | 27-05-2023   |
-| [BPP Retail (2025)](</download/patch/BPP%20RETAIL%20(2025)-Ver%200.2.exe>) | 14-04-2025   |
-| [Passbook (2021)](</download/patch/Passbook%20(2020)-Ver%201.1_LTE.exe>)   |              |
-| [Silent-FTP (2022)](</download/patch/Silent-FTP%20(2022)-Ver%200.0.exe>)   |              |
-| [PB-2017 Runtime Files](/download/patch/support.zip)                       |              |
-| [PB-2019 32 Bit Runtime Files](/download/patch/PB-2019-32-bit-Runtime.zip) | 14-04-2025   |
-| [PB-2019 64 Bit Runtime Files](/download/patch/PB-2019-32-bit-Runtime.zip) | 14-04-2025   |
-| [Message Database File](/download/mysql/sms.sqllite)                       |              |
+<PatchTable />
 
 ## Fonts
 
